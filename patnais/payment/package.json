@@ -1,0 +1,11 @@
+{
+  "name": "patnais-payment",
+  "version": "1.0.0",
+  "description": "test site for samuel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wwwonka",
+  "license": "UNLICENSED"
+}
