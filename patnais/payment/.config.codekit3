@@ -30,6 +30,18 @@
       "oA" : 0,
       "oAP" : "\/build\/index.html",
       "oF" : 2
+    },
+    "\/src\/Styles\/main.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/css\/main.css",
+      "oF" : 2,
+      "pg" : 0
     }
   },
   "hooks" : [
@@ -482,7 +494,9 @@
     "cssoForceMediaMerge" : 0,
     "cssoRestructure" : 1,
     "environmentVariableEntries" : [
-      "NODE_ENV:::development"
+      "NODE_ENV:::development",
+      "STRIPE_TEST_PUBLIC_KEY:::pk_test_51JmSxJBBbS23BMGdelHQTvoxLTUwC4T4sdfACWn67xKLOFiLUOuW1n8ACZJuLxDqtefRw5S2vVLNJCQNGFJS2Iz9006cX4f4Gs",
+      "STRIPE_TEST_SECRET_KEY:::sk_test_51JmSxJBBbS23BMGdJySDgXtZvnV8goNLQAzcDANNwxV1Bq3yzzm3h8CxOFcpqVVA4KqSfKPfpsS3TbM7dMkwm9o400FVYhuiqo"
     ],
     "esLintConfigFileHandlingType" : 0,
     "esLintECMAVersion" : 7,
@@ -1482,11 +1496,11 @@
     },
     "languageDefaultsCSS" : {
       "autoOutputAction" : 0,
-      "autoOutputPathFilenamePattern" : "*-min.css",
-      "autoOutputPathRelativePath" : "",
+      "autoOutputPathFilenamePattern" : "*.css",
+      "autoOutputPathRelativePath" : "css\/",
       "autoOutputPathReplace1" : "",
       "autoOutputPathReplace2" : "",
-      "autoOutputPathStyle" : 0,
+      "autoOutputPathStyle" : 2,
       "combineImports" : 0,
       "cssoStyle" : 0,
       "purgeCSSStyle" : 0,
