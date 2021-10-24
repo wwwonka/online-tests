@@ -18,6 +18,8 @@ Temporary Items
 .apdisk
 
 # Node
-node_modules/
+**/node_modules/
 
 # Project Specific
+# Local Netlify folder
+.netlify

@@ -1,0 +1,14 @@
+{
+  "name": "netlify-functions",
+  "version": "1.0.0",
+  "description": "serverless functions for samuel morneau's donation page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wwwonka",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "stripe": "^8.184.0"
+  }
+}

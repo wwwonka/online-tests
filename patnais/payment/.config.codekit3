@@ -25,6 +25,14 @@
       "oAP" : "\/build\/.gitignore",
       "oF" : 1
     },
+    "\/.netlify\/state.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/build\/.netlify\/state-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/.vscode" : {
       "ft" : 65536,
       "oA" : 1,
@@ -52,6 +60,14 @@
       "oA" : 0,
       "oAP" : "\/build\/robots.txt",
       "oF" : 2
+    },
+    "\/netlify.toml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/netlify.toml",
+      "oF" : 1
     },
     "\/node_modules" : {
       "ft" : 65536,
@@ -81,10 +97,32 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/main.js",
+      "oAP" : "\/build\/main.js",
       "oF" : 2,
       "sC" : 0,
       "tS" : 0
+    },
+    "\/src\/Netlify Functions\/node_modules" : {
+      "ft" : 65536,
+      "oA" : 2,
+      "oAP" : "\/build\/Netlify Functions\/node_modules",
+      "oF" : 0
+    },
+    "\/src\/Netlify Functions\/package-lock.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/build\/Netlify Functions\/package-lock-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/src\/Netlify Functions\/package.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/build\/Netlify Functions\/package-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
     },
     "\/styles\/init.css" : {
       "aP" : 1,
@@ -1842,7 +1880,7 @@
       "ENVIRONMENT:::$NODE_ENV"
     ],
     "rollupTreeshakingEnabled" : 1,
-    "skippedFoldersString" : ".idea,log,\/storage\/framework\/sessions,logs,_logs,_cache,node_modules,\/.vscode,cache",
+    "skippedFoldersString" : "logs,_cache,\/.vscode,\/src\/netlify,_logs,\/storage\/framework\/sessions,node_modules,cache,.idea,log",
     "sourceFolderName" : "src",
     "susyVersion" : 3,
     "tsAllowSyntheticDefaultImports" : 0,
