@@ -9,11 +9,73 @@
   ],
   "creatorBuild" : "34214",
   "files" : {
+    "\/​.code-workspace" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/​.code-workspace",
+      "oF" : 0
+    },
+    "\/.gitignore" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/.gitignore",
+      "oF" : 0
+    },
+    "\/.vscode\/bookmarks.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/build\/.vscode\/bookmarks-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/.vscode\/launch.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/build\/.vscode\/launch-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/build" : {
       "ft" : 65536,
       "oA" : 1,
       "oAP" : "\/build\/build",
       "oF" : 0
+    },
+    "\/html\/index.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/html\/index.html",
+      "oF" : 0
+    },
+    "\/html\/robots.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/html\/robots.txt",
+      "oF" : 0
+    },
+    "\/node_modules" : {
+      "ft" : 65536,
+      "oA" : 2,
+      "oAP" : "\/build\/node_modules",
+      "oF" : 0
+    },
+    "\/package-lock.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/build\/package-lock-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
     },
     "\/package.json" : {
       "ft" : 524288,
@@ -23,15 +85,18 @@
       "oO" : 1,
       "oS" : 1
     },
-    "\/src\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 2,
+    "\/src\/main.js" : {
+      "bF" : 4,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/index.html",
-      "oF" : 2
+      "oAP" : "\/build\/main.js",
+      "oF" : 0,
+      "sC" : 0,
+      "tS" : 0
     },
-    "\/src\/Styles\/main.css" : {
+    "\/styles\/init.css" : {
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
@@ -39,13 +104,21 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/css\/main.css",
-      "oF" : 2,
+      "oAP" : "\/build\/styles\/css\/init.css",
+      "oF" : 0,
       "pg" : 0
     }
   },
   "hooks" : [
-
+    {
+      "enabled" : 1,
+      "name" : "DEV - Build with esbuild",
+      "predicateDataBase64Encoded" : "YnBsaXN0MDDUAQIDBAUGZWZYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QFgcIDxQcJicqMTU6Oz5CRktMT1ZcYGJVJG51bGzTCQoLDA0OXxAXTlNDb21wb3VuZFByZWRpY2F0ZVR5cGVfEA9OU1N1YnByZWRpY2F0ZXNWJGNsYXNzEAKAAoAV0hALERNaTlMub2JqZWN0c6ESgAOAFNQLFRYXGBkaG18QEU5TUmlnaHRFeHByZXNzaW9uXxAQTlNMZWZ0RXhwcmVzc2lvbl8QE05TUHJlZGljYXRlT3BlcmF0b3KAE4AOgASAEdUdHh8gCyEiIyQlWU5TT3BlcmFuZF5OU1NlbGVjdG9yTmFtZV8QEE5TRXhwcmVzc2lvblR5cGVbTlNBcmd1bWVudHOABoAFEAOACIANXHZhbHVlRm9yS2V5OtIfCygpEAGAB9IrLC0uWiRjbGFzc25hbWVYJGNsYXNzZXNfEBBOU1NlbGZFeHByZXNzaW9uoy0vMFxOU0V4cHJlc3Npb25YTlNPYmplY3TSEAsyNKEzgAmADNMLHzY3ODlZTlNLZXlQYXRogAsQCoAKXWlucHV0RmlsZW5hbWXSKyw8PV8QHE5TS2V5UGF0aFNwZWNpZmllckV4cHJlc3Npb26jPC8w0issP0BeTlNNdXRhYmxlQXJyYXmjP0EwV05TQXJyYXnSKyxDRF8QE05TS2V5UGF0aEV4cHJlc3Npb26kQ0UvMF8QFE5TRnVuY3Rpb25FeHByZXNzaW9u00cfC0hJSl8QD05TQ29uc3RhbnRWYWx1ZYAPEACAEFMuanPSKyxNTl8QGU5TQ29uc3RhbnRWYWx1ZUV4cHJlc3Npb26jTS8w1QtQUVJTVEkjKFVaTlNNb2RpZmllcldOU0ZsYWdzWk5TUG9zaXRpb25eTlNPcGVyYXRvclR5cGWAEhAJ0issV1hfEBxOU1N1YnN0cmluZ1ByZWRpY2F0ZU9wZXJhdG9ypFlaWzBfEBxOU1N1YnN0cmluZ1ByZWRpY2F0ZU9wZXJhdG9yXxAZTlNTdHJpbmdQcmVkaWNhdGVPcGVyYXRvcl8QE05TUHJlZGljYXRlT3BlcmF0b3LSKyxdXl8QFU5TQ29tcGFyaXNvblByZWRpY2F0ZaNdXzBbTlNQcmVkaWNhdGXSKyxBYaJBMNIrLGNkXxATTlNDb21wb3VuZFByZWRpY2F0ZaNjXzBfEA9OU0tleWVkQXJjaGl2ZXLRZ2hUcm9vdIABAAgAEQAaACMALQAyADcAUABWAF0AdwCJAJAAkgCUAJYAmwCmAKgAqgCsALUAyQDcAPIA9AD2APgA+gEFAQ8BHgExAT0BPwFBAUMBRQFHAVQBWQFbAV0BYgFtAXYBiQGNAZoBowGoAaoBrAGuAbUBvwHBAcMBxQHTAdgB9wH7AgACDwITAhsCIAI2AjsCUgJZAmsCbQJvAnECdQJ6ApYCmgKlArACuALDAtIC1ALWAtsC+gL\/Ax4DOgNQA1UDbQNxA30DggOFA4oDoAOkA7YDuQO+AAAAAAAAAgEAAAAAAAAAaQAAAAAAAAAAAAAAAAAAA8A=",
+      "runOrder" : 0,
+      "scriptSourceString" : "# Check if NODE_ENV is set to \"development\"\n\nif [ \"$NODE_ENV\" = \"development\" ]; then\n\t\n\t# If true bundle with esbuild\n    .\/node_modules\/.bin\/esbuild $CK_INPUT_PATH --bundle --outfile=$CK_OUTPUT_PATH --log-level=error\n\n\techo \"Built with esbuild\"\n\nelse\n\n    echo \"NODE_ENV set to $NODE_ENV. Skipping building with esbuild\"\n\nfi",
+      "scriptType" : 1,
+      "uuidString" : "7D55CDC7-74A7-4B2B-BDFE-426942EF9B80"
+    }
   ],
   "manualImportLinks" : {
 
@@ -54,15 +127,16 @@
     "creationDate" : 656381782.77656806,
     "displayValue" : "Patnais-Payment",
     "displayValueWasSetByUser" : 1,
-    "iconImageName" : "brackets_green",
-    "iconImageWasSetByUser" : 0
+    "iconImageName" : "brackets-koamaru",
+    "iconImageWasSetByUser" : 1,
+    "lastBuiltDate" : 656802413.71860898
   },
   "projectSettings" : {
-    "abortBuildOnError" : 1,
+    "abortBuildOnError" : 0,
     "allowInjectionReloads" : 1,
     "alwaysUseExternalServer" : 0,
     "animateCSSInjections" : 1,
-    "autoBuildNewItems" : 1,
+    "autoBuildNewItems" : 0,
     "autoprefixerEnableIEGrid" : 0,
     "babel7PresetType" : 1,
     "babelAllowRCFiles" : 0,
@@ -1478,7 +1552,7 @@
     },
     "esLintSourceType" : 0,
     "externalServerAddress" : "http:\/\/localhost:8888",
-    "gitIgnoreBuildFolder" : 1,
+    "gitIgnoreBuildFolder" : 0,
     "hideConfigFile" : 1,
     "jsCheckerReservedNamesString" : "",
     "languageDefaultsCOFFEE" : {
@@ -1548,15 +1622,15 @@
     },
     "languageDefaultsJS" : {
       "autoOutputAction" : 0,
-      "autoOutputPathFilenamePattern" : "*-min.js",
+      "autoOutputPathFilenamePattern" : "*.js",
       "autoOutputPathRelativePath" : "\/min",
       "autoOutputPathReplace1" : "",
       "autoOutputPathReplace2" : "",
       "autoOutputPathStyle" : 0,
-      "bundleFormat" : 0,
+      "bundleFormat" : 4,
       "minifierStyle" : 1,
       "sourceMapStyle" : 0,
-      "syntaxCheckerStyle" : 3,
+      "syntaxCheckerStyle" : 0,
       "transpilerStyle" : 0
     },
     "languageDefaultsJSON" : {

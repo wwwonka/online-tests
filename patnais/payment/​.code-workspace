@@ -1,0 +1,59 @@
+{
+    "settings": {
+        "files.exclude": {
+            // Defaults
+            "**/.git": true,
+            "**/.svn": true,
+            "**/.hg": true,
+            "**/CVS": true,
+            "**/.DS_Store": true,
+
+            // Node
+            "node_modules": true,
+            "package-lock.json":true,
+            
+            // Content of these folders will show in their dedicated sections:
+            "src":true,
+            "html":true,
+            "styles":true,
+            "assets":true,
+            "build":true,
+            
+            // Misc
+            ".nova":true,
+            "./Gallery/.vscode":true
+        },
+        "telemetry.enableCrashReporter": false,
+        "dotnetAcquisitionExtension.enableTelemetry": false,
+        "liveServer.settings.multiRootWorkspaceName": " ͟B͟U͟I͟L͟D͟",
+        "bookmarks.sideBar.expanded": true,
+    },
+
+    // Underlined text generated at: https://yaytext.com/fr/souligner/
+    "folders": [
+        {
+            "name": "ASSETS",
+            "path": "./assets",
+        },
+        {
+            "name": "HTML",
+            "path": "./html",
+        },
+        {
+            "name": "CSS",
+            "path": "./styles",
+        },
+        {
+            "name": "JS",
+            "path": "./src",
+        },
+        {
+            "name": " ͟B͟U͟I͟L͟D͟",
+            "path": "./build",
+        },
+        {
+            "name": " ͟C͟O͟N͟F͟I͟G͟",
+            "path": "."
+        },
+    ]    
+}

@@ -18,6 +18,8 @@ input {
 input::placeholder {
     color: #ccc;
 }
+
+	
 button {
     display: block;
     background: #666ee8;
