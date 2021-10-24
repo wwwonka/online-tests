@@ -13,33 +13,23 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/build\/​.code-workspace",
-      "oF" : 0
+      "oF" : 1
     },
     "\/.gitignore" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/build\/.gitignore",
+      "oF" : 1
+    },
+    "\/.vscode" : {
+      "ft" : 65536,
+      "oA" : 1,
+      "oAP" : "\/build\/.vscode",
       "oF" : 0
-    },
-    "\/.vscode\/bookmarks.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/build\/.vscode\/bookmarks-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/.vscode\/launch.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/build\/.vscode\/launch-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
     },
     "\/build" : {
       "ft" : 65536,
@@ -52,22 +42,22 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/html\/index.html",
-      "oF" : 0
+      "oAP" : "\/build\/index.html",
+      "oF" : 2
     },
     "\/html\/robots.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/html\/robots.txt",
-      "oF" : 0
+      "oAP" : "\/build\/robots.txt",
+      "oF" : 2
     },
     "\/node_modules" : {
       "ft" : 65536,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/build\/node_modules",
-      "oF" : 0
+      "oF" : 1
     },
     "\/package-lock.json" : {
       "ft" : 524288,
@@ -91,8 +81,8 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/main.js",
-      "oF" : 0,
+      "oAP" : "\/build\/js\/main.js",
+      "oF" : 2,
       "sC" : 0,
       "tS" : 0
     },
@@ -104,8 +94,8 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/styles\/css\/init.css",
-      "oF" : 0,
+      "oAP" : "\/build\/css\/main.css",
+      "oF" : 2,
       "pg" : 0
     }
   },
@@ -129,7 +119,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "brackets-koamaru",
     "iconImageWasSetByUser" : 1,
-    "lastBuiltDate" : 656802413.71860898
+    "lastBuiltDate" : 656805179.69580102
   },
   "projectSettings" : {
     "abortBuildOnError" : 0,
@@ -1852,7 +1842,7 @@
       "ENVIRONMENT:::$NODE_ENV"
     ],
     "rollupTreeshakingEnabled" : 1,
-    "skippedFoldersString" : "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
+    "skippedFoldersString" : ".idea,log,\/storage\/framework\/sessions,logs,_logs,_cache,node_modules,\/.vscode,cache",
     "sourceFolderName" : "src",
     "susyVersion" : 3,
     "tsAllowSyntheticDefaultImports" : 0,

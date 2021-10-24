@@ -15,18 +15,28 @@ input {
     color: #666;
     outline: none;
 }
+input::-webkit-input-placeholder {
+    color: #ccc;
+}
+input::-moz-placeholder {
+    color: #ccc;
+}
+input:-ms-input-placeholder {
+    color: #ccc;
+}
 input::placeholder {
     color: #ccc;
 }
+	
 button {
     display: block;
-    background: #666ee8;
+    background: #525583;
     color: #fff;
     box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
     border-radius: 2em;
     border: 0;
     font-weight: 700;
-    width: 20%;
+    width: 150px;
     height: 40px;
     outline: none;
     cursor: pointer;
